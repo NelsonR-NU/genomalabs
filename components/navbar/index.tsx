@@ -29,43 +29,10 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className='flex w-full pl-10 justify-between'>
           <div className="hidden md:flex gap-10 justify-between">
-            <div className="relative group">
-              <button
-                onClick={() => toggleDropdown('solutions')}
-                className="hover:underline flex items-center"
-              >
-                Products
-              </button>
-              {/* Dropdown */}
-              {dropdownOpen === 'solutions' && (
-                <div className="absolute left-0 mt-2 w-48 bg-white text-black shadow-lg rounded-lg">
-                  <Link href="#" className="block px-4 py-2 hover:bg-gray-200">Automotive</Link>
-                  <Link href="#" className="block px-4 py-2 hover:bg-gray-200">IoT</Link>
-                  <Link href="#" className="block px-4 py-2 hover:bg-gray-200">Mobile Computing</Link>
-                </div>
-              )}
-            </div>
-
-            <div className="relative group">
-              <button
-                onClick={() => toggleDropdown('partners')}
-                className="hover:underline flex items-center"
-              >
-                Markets
-              </button>
-              {/* Dropdown */}
-              {dropdownOpen === 'partners' && (
-                <div className="absolute left-0 mt-2 w-48 bg-white text-black shadow-lg rounded-lg">
-                  <Link href="#" className="block px-4 py-2 hover:bg-gray-200">Strategic Partners</Link>
-                  <Link href="#" className="block px-4 py-2 hover:bg-gray-200">Ecosystem</Link>
-                </div>
-              )}
-            </div>
-
-            <Link href="#" className="hover:underline">Partners</Link>
-            <Link href="#" className="hover:underline">Developers</Link>
-            <Link href="#" className="hover:underline">Support & Training</Link>
-            <Link href="#" className="hover:underline">Company</Link>
+            <Link href="#" className="hover:underline">Writings</Link>
+            <Link href="#" className="hover:underline">About Us</Link>
+            <Link href="#" className="hover:underline">Contact Us</Link>
+            <Link href="#" className="hover:underline">Needs</Link>
           </div>
 
           <div className='flex gap-5' >
@@ -90,36 +57,10 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
         <nav className="bg-gray-800 p-4 space-y-4">
-          <div className="relative">
-            <button
-              onClick={() => toggleDropdown('solutions')}
-              className="w-full text-left"
-            >
-              Solutions
-            </button>
-            {dropdownOpen === 'solutions' && (
-              <div className="bg-gray-700 p-2 rounded-lg">
-                <Link href="#" className="block px-4 py-2 text-white hover:bg-gray-600">Automotive</Link>
-                <Link href="#" className="block px-4 py-2 text-white hover:bg-gray-600">IoT</Link>
-                <Link href="#" className="block px-4 py-2 text-white hover:bg-gray-600">Mobile Computing</Link>
-              </div>
-            )}
-          </div>
-          <div className="relative">
-            <button
-              onClick={() => toggleDropdown('partners')}
-              className="w-full text-left"
-            >
-              Partners
-            </button>
-            {dropdownOpen === 'partners' && (
-              <div className="bg-gray-700 p-2 rounded-lg">
-                <Link href="#" className="block px-4 py-2 text-white hover:bg-gray-600">Strategic Partners</Link>
-                <Link href="#" className="block px-4 py-2 text-white hover:bg-gray-600">Ecosystem</Link>
-              </div>
-            )}
-          </div>
-          <Link href="/support" className="block px-4 py-2 text-white hover:bg-gray-600">Support</Link>
+          <Link href="/support" className="block px-4 py-2 text-white hover:bg-gray-600">Writings</Link>
+          <Link href="/support" className="block px-4 py-2 text-white hover:bg-gray-600">About Us</Link>
+          <Link href="/support" className="block px-4 py-2 text-white hover:bg-gray-600">Contact Us</Link>
+          <Link href="/support" className="block px-4 py-2 text-white hover:bg-gray-600">Needs</Link>
         </nav>
       </div>
     </header>
