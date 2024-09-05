@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "test-cyan": "#00c1de",
-        "test-green": "#94D600",
+        "test-cyan": "#3A8DDE",
+        "test-green": "#eebc7d",
+        "test-blue": "#19134a",
+        "test-red": "#D53734CC",
+        "test-cyan-0": "#08D3F2CC",
+        "test-purple": "#F416ACA6"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
