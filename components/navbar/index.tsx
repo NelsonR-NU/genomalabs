@@ -29,10 +29,10 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className='flex w-full pl-10 justify-end'>
           <div className="hidden md:flex gap-10 justify-between">
-            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Writings</Link>
-            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">About Us</Link>
-            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Contact Us</Link>
-            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Needs</Link>
+            <Link href="#writings" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-300 text-[1.125rem]">Writings</Link>
+            <Link href="#needs" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-300 text-[1.125rem]">Needs</Link>
+            <Link href="#contact" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-300 text-[1.125rem]">Contact Us</Link>
+            <Link href="#about" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-300 text-[1.125rem]">About Us</Link>
           </div>
         </nav>
 
