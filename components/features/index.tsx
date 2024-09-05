@@ -5,7 +5,7 @@ const Features = () => {
     <section className="relative py-20 bg-black">
       <div className='flex w-full justify-center text-center'>
         <h1 className='lg:text-[44px]'>
-          Building the Future of Computing on Arm.<br/>Together. For Everyone.
+          Building the Future of innovation with Genomalab.<br/>Together. For Everyone.
         </h1>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-36 pt-10">

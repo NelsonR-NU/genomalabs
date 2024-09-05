@@ -7,7 +7,7 @@ const CardSection = () => {
     <section className="relative py-20 bg-black">
       <div className='flex w-full justify-center text-center'>
         <h1 className='lg:text-[44px]'>
-          Drive Innovation with Arm Technology
+          Discover GenomaLab
         </h1>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-36 pt-10">

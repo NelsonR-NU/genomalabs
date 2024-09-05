@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-gradient-to-b from-black via-black to-transparent hover:bg-black text-white fixed w-full z-50 px-28 py-5">
+    <header className="bg-gradient-to-b from-black via-black to-transparent hover:bg-black text-white fixed w-full z-50 px-28 py-5 transition-all ease-in-out duration-500">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -27,18 +27,12 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className='flex w-full pl-10 justify-between'>
+        <nav className='flex w-full pl-10 justify-end'>
           <div className="hidden md:flex gap-10 justify-between">
-            <Link href="#" className="hover:underline">Writings</Link>
-            <Link href="#" className="hover:underline">About Us</Link>
-            <Link href="#" className="hover:underline">Contact Us</Link>
-            <Link href="#" className="hover:underline">Needs</Link>
-          </div>
-
-          <div className='flex gap-5' >
-            <FontAwesomeIcon icon={faSearch} className="hidden md:block" />
-            <FontAwesomeIcon icon={faEnvelope} className="hidden md:block" />
-            <FontAwesomeIcon icon={faUserCircle} className="hidden md:block" />
+            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Writings</Link>
+            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">About Us</Link>
+            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Contact Us</Link>
+            <Link href="#" className="flex flex-col after:bg-white after:relative after:h-1 after:w-[25px] after:bottom-0 after:left-0 after:hover:w-full after:transition-all after:ease-in-out after:duration-200">Needs</Link>
           </div>
         </nav>
 
