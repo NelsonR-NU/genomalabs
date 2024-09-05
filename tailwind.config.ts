@@ -12,9 +12,9 @@ const config: Config = {
         "test-cyan": "#3A8DDE",
         "test-green": "#eebc7d",
         "test-blue": "#19134a",
-        "test-red": "#D53734CC",
-        "test-cyan-0": "#08D3F2CC",
-        "test-purple": "#F416ACA6"
+        "test-red": "#D53734",
+        "test-cyan-0": "#08D3F8",
+        "test-purple": "#F416AC"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

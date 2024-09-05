@@ -11,7 +11,7 @@ const Writings = () => {
    const onMouseLeave = () => setHover("")
 
   return (
-    <div id="writings" className="flex flex-col z-10 px-28 w-full  bg-gradient-to-b from-black/70 to-transparent">
+    <div id="writings" className="flex flex-col scroll-mt-40 z-10 px-28 w-full  bg-gradient-to-b from-black/70 to-transparent">
       <h1 className="text-[4rem]">Writings.</h1>
       <div className="flex gap-10 pt-20">
         <div onMouseEnter={onMouseEnterVid} onMouseLeave={onMouseLeave} id="video" className="shadow-lg shadow-blue-500/50 hover:-translate-y-1 backdrop-blur-lg h-[400px] bg-cover bg-[url('/card1.png')] overflow-hidden hover:brightness-125 flex-1  border-[1.5px] hover:border-[1.5px] hover:cursor-pointer hover:border-gray-300 rounded-xl transition-all duration-300 ease-in-out border-gray-200 hover:shadow-lg shadow-gray-300 text-center">
