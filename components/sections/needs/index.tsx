@@ -3,7 +3,7 @@ import NeedsImg from "@/assets/png/needs.png"
 
 const Needs = () => {
   return (
-    <div id="needs" className="flex z-10 px-28 pt-28 w-full">
+    <div id="needs" className="scroll-mt-20 flex z-10 px-28 pt-28 w-full">
       <div className="flex flex-col gap-10">
         <h1 className="text-[4rem]">Needs.</h1>
         <p className="max-w-4xl text-[1rem] text-justify">

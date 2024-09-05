@@ -11,7 +11,7 @@ const ContactUs = () => {
   const [hovering, setHovering] = useState(false)
 
   return (
-    <div id='contact' className='flex flex-col px-20 pt-20 gap-10'>
+    <div id='contact' className=' scroll-mt-10 flex flex-col px-20 pt-20 gap-10'>
       <h1 className="text-[4rem]">Contact Us.</h1>
       <form onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)} className="flex flex-col gap-20 bg-[url('/form-bg.png')] px-24 py-10 bg-cover w-full brightness-75 hover:brightness-100 transition-all ease-in-out duration-300">
         <div className='flex w-full gap-24'>
